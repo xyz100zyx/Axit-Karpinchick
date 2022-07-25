@@ -1,0 +1,71 @@
+.about .about__title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    height: 150px;
+}
+.about .about__title::after {
+    content: "";
+    border: 1px solid #EC7979;
+    display: block;
+    max-width: 170px;
+    margin: 57px auto 40px auto;
+}
+.about .about__subtitle {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #86878B;
+}
+.about .about__proofs {
+    display: flex;
+    margin-top: 110px;
+    justify-content: space-between;
+}
+.about .about__proofs li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about .about__proofs .about__img {
+    border: 1px solid #EC7979;
+    width: 92px;
+    max-height: 92px;
+    display: flex;
+    justify-content: center;
+    border-radius: 360px;
+    box-sizing: border-box;
+}
+.about .about__proofs .about__img--1 {
+    padding: 13.35px;
+}
+.about .about__proofs .about__img--2 {
+    padding: 23px 13px;
+}
+.about .about__proofs .about__img--3 {
+    padding: 13px 22px 13px 26px;
+}
+.about .about__proofs .about__text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+.about .about__proofs .about__subtext {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    max-width: 370px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+}
