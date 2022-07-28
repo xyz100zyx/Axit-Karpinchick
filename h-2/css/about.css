@@ -6,6 +6,8 @@
     line-height: 42px;
     text-align: center;
     height: 150px;
+    margin: 0px;
+    margin-top: 57px;
 }
 .about .about__title::after {
     content: "";
@@ -68,4 +70,6 @@
     align-items: center;
     text-align: center;
     margin-top: 8px;
+    margin-bottom: 0px;
+    margin-bottom: 58px;
 }
