@@ -24,6 +24,11 @@
     text-align: center;
     color: #86878B;
 }
+
+.about__text{
+    padding: 50px 0px 50px 0px;
+}
+
 .about .about__proofs {
     display: flex;
     margin-top: 110px;
