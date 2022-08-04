@@ -5,8 +5,10 @@
 .header__container {
   display: flex;
   justify-content: space-between;
+  max-width: 1224.72px;
   margin-left: 115.58px;
   align-items: center;
+  margin: 0 auto;
 }
 
 .header__logo {
@@ -14,7 +16,6 @@
 
 .header__nav {
   color: #fff;
-  margin-right: 170px;
 }
 
 .header__links {
@@ -41,7 +42,7 @@
     min-height: 75px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     border: none;
     outline: none;
 }

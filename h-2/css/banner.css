@@ -1,0 +1,139 @@
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../src/banner-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 949px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.banner__left {
+  color: #fff;
+  max-width: 670px;
+}
+
+.banner__logo {
+  margin-top: 207px;
+}
+
+.banner__title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: uppercase;
+  max-width: 800px;
+  color: #ffffff;
+  margin: 0px;
+  margin-top: 50.88px;
+}
+
+.banner__title::after {
+  content: "";
+  border: 1px solid #fff;
+  display: block;
+  max-width: 170px;
+  margin: 55.12px 0px 42px 0px;
+}
+
+.banner__text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  max-width: 270px;
+  margin-bottom: 42px;
+}
+
+.banner__btn {
+  min-width: 270px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding: 22px 0px;
+  background: none;
+  border: 2px solid #ffffff;
+}
+
+.banner__right {
+    margin-top: 207px;
+}
+
+.banner__form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 470px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.banner-form__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 35px 13px;
+  color: #333333;
+  margin-bottom: 45px;
+}
+
+.banner-form__title span {
+  color: #ec7979;
+}
+
+.banner-form__input {
+  border: none;
+  width: 370px;
+  margin: 0 auto;
+  padding-bottom: 16px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  outline: none;
+  color: #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.banner-form__input:nth-child(3),
+.banner-form__input:nth-child(4) {
+  margin-top: 33px;
+}
+
+.banner-form__input:last-child {
+  margin-bottom: 75px;
+}
+
+.banner-form__input::placeholder, .banner-form__input::-moz-placeholder, .banner-form__input::-webkit-input-placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.banner__btn--red {
+  width: 100%;
+  border: none;
+  background: #ec7979;
+  border-radius: 0px 0px 10px 10px;
+}
