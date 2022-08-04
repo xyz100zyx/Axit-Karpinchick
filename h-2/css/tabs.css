@@ -61,7 +61,7 @@
     width: 270px;
     background: #EC7979;
     border: none;
-    height: 58px;
+    min-height: 58px;
 }
 .tabs a {
     text-decoration: none;

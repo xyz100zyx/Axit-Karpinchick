@@ -2,49 +2,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap");
 @import "./about.css";
 @import "./tabs.css";
-@import './pricing.css';
-@import './customers.css';
+@import "./pricing.css";
+@import "./customers.css";
+@import "./design.css";
+@import './header.css';
 
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section,
-summary {
-    display: block;
+article, aside, details, figcaption, figure, footer,
+  header, hgroup, nav, section, summary {
+  display: block;
 }
 
-.list ul{
-    display: flex;
-    justify-content: space-between;
+.list ul {
+  display: flex;
+  justify-content: space-between;
 }
 
 audio,
 canvas,
 video {
-    display: inline-block;
+  display: inline-block;
 }
 
 audio:not([controls]) {
-    display: none;
-    height: 0;
+  display: none;
+  height: 0;
 }
 
-[hidden], template {
-    display: none;
+[hidden],
+template {
+  display: none;
 }
 
 html {
-    background: #fff;
-    color: #000;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+  background: #fff;
+  color: #000;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 html,
@@ -52,228 +45,229 @@ button,
 input,
 select,
 textarea {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 a {
-    background: transparent;
+  background: transparent;
 }
 a:focus {
-    outline: thin dotted;
+  outline: thin dotted;
 }
-a:hover, a:active {
-    outline: 0;
+a:hover,
+a:active {
+  outline: 0;
 }
 
 h1 {
-    font-size: 2em;
-    margin: 0;
+  font-size: 2em;
+  margin: 0;
 }
 
 h2 {
-    font-size: 1.5em;
-    margin: 0;
+  font-size: 1.5em;
+  margin: 0;
 }
 
 h3 {
-    font-size: 1.17em;
-    margin: 0;
+  font-size: 1.17em;
+  margin: 0;
 }
 
 h4 {
-    font-size: 1em;
-    margin: 0;
+  font-size: 1em;
+  margin: 0;
 }
 
 h5 {
-    font-size: 0.83em;
-    margin: 0;
+  font-size: 0.83em;
+  margin: 0;
 }
 
 h6 {
-    font-size: 0.75em;
-    margin: 0;
+  font-size: 0.75em;
+  margin: 0;
 }
 
 abbr[title] {
-    border-bottom: 1px dotted;
+  border-bottom: 1px dotted;
 }
 
 b,
 strong {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 dfn {
-    font-style: italic;
+  font-style: italic;
 }
 
 mark {
-    background: #ff0;
-    color: #000;
+  background: #ff0;
+  color: #000;
 }
 
 code,
 kbd,
 pre,
 samp {
-    font-family: monospace, serif;
-    font-size: 1em;
+  font-family: monospace, serif;
+  font-size: 1em;
 }
 
 pre {
-    white-space: pre;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 q {
-    quotes: "“" "”" "‘" "’";
+  quotes: "“" "”" "‘" "’";
 }
 
-q:before, q:after {
-    content: "";
-    content: none;
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 
 small {
-    font-size: 80%;
+  font-size: 80%;
 }
 
 sub,
 sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
 sup {
-    top: -0.5em;
+  top: -0.5em;
 }
 
 sub {
-    bottom: -0.25em;
+  bottom: -0.25em;
 }
 
 img {
-    border: 0;
+  border: 0;
 }
 
 svg:not(:root) {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 figure {
-    margin: 0;
+  margin: 0;
 }
 
 fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em;
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
 }
 
 legend {
-    border: 0;
-    padding: 0;
-    white-space: normal;
+  border: 0;
+  padding: 0;
+  white-space: normal;
 }
 
 button,
 input,
 select,
 textarea {
-    font-family: inherit;
-    font-size: 100%;
-    margin: 0;
-    vertical-align: baseline;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
 }
 
-button, input {
-    line-height: normal;
+button,
+input {
+  line-height: normal;
 }
 
 button,
 select {
-    text-transform: none;
+  text-transform: none;
 }
 
 button,
-html input[type=button],
-input[type=reset],
-input[type=submit] {
-    -webkit-appearance: button;
-    cursor: pointer;
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
 }
 
 button[disabled],
 input[disabled] {
-    cursor: default;
+  cursor: default;
 }
 
-button::-moz-focus-inner, input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
 }
 
 textarea {
-    overflow: auto;
-    vertical-align: top;
+  overflow: auto;
+  vertical-align: top;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-input[type=search] {
-    -webkit-appearance: textfield;
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
 }
-input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
-    -webkit-appearance: none;
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
 }
-input[type=checkbox], input[type=radio] {
-    box-sizing: border-box;
-    padding: 0;
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 section {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    max-width: 1170px;
-    margin: 0 auto;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .long {
-    border-bottom: 1px solid #EC7979;
-    min-width: 170px;
+  border-bottom: 1px solid #ec7979;
+  min-width: 170px;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-
-
-
-
