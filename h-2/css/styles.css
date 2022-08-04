@@ -7,6 +7,8 @@
 @import "./design.css";
 @import './header.css';
 @import "./banner.css";
+@import "./media.css";
+@import './footer.css';
 
 article, aside, details, figcaption, figure, footer,
   header, hgroup, nav, section, summary {

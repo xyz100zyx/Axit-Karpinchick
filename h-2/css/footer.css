@@ -1,0 +1,26 @@
+.footer {
+  background-color: #000;
+}
+
+.footer__container {
+  margin: 0 auto;
+  max-width: 569.2px;
+}
+
+.footer__text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 27.8px;
+  padding-bottom: 27px;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+}
