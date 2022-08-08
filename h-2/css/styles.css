@@ -9,6 +9,7 @@
 @import "./banner.css";
 @import "./media.css";
 @import './footer.css';
+@import './contact.css';
 
 article, aside, details, figcaption, figure, footer,
   header, hgroup, nav, section, summary {
