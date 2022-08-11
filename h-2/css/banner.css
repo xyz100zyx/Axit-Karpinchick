@@ -4,7 +4,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 949px;
+  min-height: 950px;
   display: flex;
   justify-content: flex-end;
 }
@@ -136,4 +136,69 @@
   border: none;
   background: #ec7979;
   border-radius: 0px 0px 10px 10px;
+}
+
+@media (max-width: 1024px) {
+
+  .banner{
+    min-height: 693px;
+  }
+
+  .container{
+    max-width: 888.72px !important;
+    margin-right: 20px !important;
+
+  }
+
+  .banner__logo{
+    width: 183.1px;
+    height: 74.86px;
+    margin-top: 136.84px;
+  }
+
+  .banner__title{
+    margin-top: 37.61px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    max-width: 454.36px;
+  }
+
+  .banner__title::after{
+    margin-top: 41.49px;
+    margin-bottom: 31px;
+  }
+
+  .banner__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 31.32px;
+  }
+
+  .banner__btn:not(.banner__btn--red){
+    padding: 16px 0px;
+  }
+
+  .banner__form{
+    max-width: 398px;
+    max-height: 450px;
+  }
+
+  .banner-form__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 39px;
+    padding-bottom: 38px;
+    margin-bottom: 45px;
+  }
+
+  .banner-form__input{
+    max-width: 298px;
+  }
+
+  .banner__right{
+    margin-top: 137px;
+  }
 }
