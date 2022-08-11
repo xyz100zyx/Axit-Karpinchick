@@ -60,7 +60,7 @@
 
     .header__link{
         display: flex;
-        justify-content: flex-end !important;
+        justify-content: center !important;
     }
 
     .header__link a{
