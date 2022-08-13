@@ -78,3 +78,59 @@
     margin-bottom: 0px;
     margin-bottom: 58px;
 }
+
+@media (max-width: 1024px) {
+    .about__container{
+        max-width: 992px !important;
+    }
+
+    .about__title{
+        font-size: 24px !important;
+        margin-top: 50px;
+    }
+
+    .about__title::after{
+        margin-top: 50px;
+        margin-bottom: 32px;
+    }
+
+    .about__subtitle{
+        font-size: 14px !important;
+    }
+
+    .about__proofs{
+        margin-top: 66px !important;
+    }
+
+    .about__img{
+        width: 79.55px !important;
+        height: 79.55px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about__img img{
+        width: 56.46px;
+        height: 56.46px;
+        object-fit: contain;
+    }
+
+    .about__text{
+        padding: 34px 0px 30px 0px;
+        font-size: 18px;
+        margin-top: 33.72px;
+    }
+
+    .about__item{
+        max-width: 318px;
+    }
+
+    .about__subtext{
+        font-size: 14px !important;
+        margin-top: 17px !important;
+        margin-bottom: 68px !important;
+    }
+
+}
