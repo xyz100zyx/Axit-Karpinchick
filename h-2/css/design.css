@@ -8,7 +8,6 @@
     url("../src/img-design.png");
   color: #fff;
   background-position: center;
-  background-size: contain;
   background-repeat: no-repeat;
   background-size: 100% 442px;
   min-height: 442px;
@@ -66,4 +65,29 @@
   border: 2px solid #fff;
   min-height: 58px;
   width: 370px;
+}
+
+@media (max-width: 1024px) {
+  .design__title{
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .design__title::after{
+    margin-top: 55px;
+  }
+
+  .design__subtitle{
+    margin: 32px 0px;
+  }
+
+  .design__button{
+    font-size: 18px;
+    max-width: 318px;
+  }
+
+  .design{
+    background-size: 1024px 358px;
+    min-height: 358px;
+  }
 }

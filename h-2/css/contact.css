@@ -100,3 +100,49 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+@media (max-width: 1024px) {
+    .contact{
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .contact__container{
+        max-width: 992px !important;
+    }
+
+    .contact__title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .contact__title::after{
+        margin-top: 51px;
+        margin-bottom: 32px;
+    }
+
+    .contact__subtitle{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .contact__forms{
+        margin-top: 72px !important;
+    }
+
+    .contact__user{
+        max-width: 486px !important;
+    }
+
+    .contact__input{
+        padding-bottom: 19px;
+    }
+
+    .contact__input--margin{
+        margin-top: 50px;
+    }
+
+    .contact__message{
+        max-width: 486px !important;
+    }
+}

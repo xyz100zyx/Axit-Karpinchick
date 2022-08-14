@@ -99,3 +99,67 @@
   text-align: start;
   margin-top: 15px;
 }
+
+@media (max-width: 1024px) {
+  .customers__container{
+    max-width: 992px !important;
+  }
+
+  .customers__title{
+    font-size: 24px;
+    padding: 50px 0px 0px 0px;
+    margin-top: 50px;
+  }
+
+  .customers__title::after{
+    margin-top: 51px;
+    margin-bottom: 32px;
+  }
+
+  .customers__subtitle{
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+
+  .customers__comments li{
+    max-width: 317px;
+  }
+
+  .customers__user img{
+    width: 63px;
+    height: 63px;
+  }
+
+  .customers__comment h5{
+    font-size: 14px;
+  }
+
+  .customers__comment{
+    margin-bottom: 46px;
+    background-size: 317px 200px;
+  }
+
+  .customers__user-info{
+    max-width: 230.45px;
+    margin-left: 22.54px;
+  }
+
+  .customers__user{
+    display: flex;
+    align-items: start;
+    margin-bottom: 57px;
+  }
+
+  .customers__name{
+    font-size: 18px !important;
+    padding: 5px 0px 5px 0px;
+    line-height: 25px;
+  }
+
+  .customers__job{
+    font-size: 14px;
+    margin-top: 9px;
+    line-height: 16px;
+    padding: 3px 0px 3px 0px;
+  }
+}

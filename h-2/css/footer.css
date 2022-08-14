@@ -24,3 +24,22 @@
   justify-content: space-between;
   padding-top: 35px;
 }
+
+@media (max-width: 1024px) {
+
+  .footer__container{
+    max-width: 482px !important;
+  }
+
+  .footer__link svg{
+    width: 45px;
+    height: 45px;
+  }
+
+  .footer__text{
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 38px;
+    padding-bottom: 30px;
+  }
+}

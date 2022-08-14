@@ -98,3 +98,34 @@
     line-height: 21px;
     color: #86878B;
 }
+
+@media (max-width: 1024px) {
+    .pricing__container{
+        max-width: 992px !important;
+    }
+
+    .pricing__title{
+        margin-top: 50px;
+        padding-top: 50px !important;
+        font-size: 24px;
+    }
+
+    .pricing__title::after{
+        margin-top: 50px;
+        margin-bottom: 32px;
+    }
+
+    .pricing__subtitle{
+        font-size: 14px;
+    }
+
+    .pricing__columns{
+        margin-top: 32px;
+        margin-bottom: 50px !important;
+    }
+
+    .pricing__column{
+        max-width: 317px;
+    }
+
+}
