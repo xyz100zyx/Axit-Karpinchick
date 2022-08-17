@@ -101,7 +101,7 @@
     margin-bottom: 50px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1510px) and (min-width: 1024px) {
     .contact{
         margin-top: 0;
         padding-top: 0;

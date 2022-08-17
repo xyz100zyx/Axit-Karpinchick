@@ -79,7 +79,7 @@
     margin-bottom: 58px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1510px) and (min-width: 1024px) {
     .about__container{
         max-width: 992px !important;
     }

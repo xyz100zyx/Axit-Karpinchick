@@ -100,7 +100,7 @@
   margin-top: 15px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1510px) and (min-width: 1024px) {
   .customers__container{
     max-width: 992px !important;
   }

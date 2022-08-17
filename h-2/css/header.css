@@ -52,7 +52,7 @@
     border: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1510px) and (min-width: 1024px) {
     .header__container {
         max-width: 888.72px;
         margin-right: 20px;
@@ -66,4 +66,8 @@
     .header__link a{
         width: auto;
     }
+}
+
+@media (max-width: 320px) {
+
 }

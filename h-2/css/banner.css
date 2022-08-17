@@ -138,7 +138,7 @@
   border-radius: 0px 0px 10px 10px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1510px) and (min-width: 1024px) {
 
   .banner{
     min-height: 693px;
