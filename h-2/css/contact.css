@@ -146,3 +146,61 @@
         max-width: 486px !important;
     }
 }
+
+@media (max-width: 1024px) and (min-width: 320px) {
+    .contact{
+
+    }
+
+    .contact__container{
+        max-width: 288px !important;
+    }
+
+    .contact__user{
+        max-width: 288px;
+    }
+
+    .contact__message{
+        max-width: 288px;
+    }
+
+    .contact__title{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 0;
+        margin-top: 50px;
+    }
+
+    .contact__title::after{
+        margin-top: 50px;
+        margin-bottom: 24px;
+    }
+
+    .contact__subtitle{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .contact__forms{
+        margin-top: 64px;
+        flex-direction: column;
+    }
+
+    .contact__message{
+        margin-top: 50px;
+        min-height: 203px;
+    }
+
+    .contact__btn{
+        max-width: 288px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        min-height: 50px;
+        margin-bottom: 40px;
+    }
+}

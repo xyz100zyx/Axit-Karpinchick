@@ -68,6 +68,20 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 1024px) {
+    .header__container{
+        max-width: 280px;
+    }
 
+    .header__logo{
+        width: 130px;
+        height: 56px;
+    }
+
+    .header__nav{
+        display: none;
+    }
+
+    .header__nav::after{
+    }
 }

@@ -127,5 +127,46 @@
     .pricing__column{
         max-width: 317px;
     }
+}
+
+@media (min-width: 320px) and (max-width: 1024px){
+    .pricing__container{
+        max-width: 288px !important;
+    }
+
+    .pricing__title{
+        font-size: 24px;
+        padding-top: 51px !important;
+    }
+
+    .pricing__title::after{
+        margin-top: 50px !important;
+        margin-bottom: 24px !important;
+    }
+
+    .pricing__subtitle{
+        font-size: 14px;
+    }
+
+    .pricing__columns{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto !important;
+        max-height: none;
+        margin-top: 24px !important;
+    }
+    .pricing__column{
+        flex-basis: 100% !important;
+        width: 100%;
+    }
+
+    .pricing__column:nth-child(2), .pricing__column:nth-child(3){
+        margin-top: 27px !important;
+    }
+
+    .pricing__column:last-child{
+        margin-bottom: 26px !important;
+    }
 
 }

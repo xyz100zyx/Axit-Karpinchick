@@ -132,5 +132,48 @@
         margin-top: 17px !important;
         margin-bottom: 68px !important;
     }
+}
+
+@media (min-width: 320px) and (max-width: 1024px){
+    .about__container{
+        max-width: 288px !important;
+    }
+
+    .about__title{
+        margin-top: 53px !important;
+        font-size: 18px !important;
+        height: auto !important;
+    }
+
+    .about__title::after{
+        margin-top: 53px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .about__subtitle{
+        font-size: 16px !important;
+    }
+
+    .about__proofs{
+        flex-direction: column;
+        margin-top: 50px !important;
+    }
+
+    .about__text{
+        font-size: 18px !important;
+        padding: 35px 0px !important;
+    }
+
+    .about__subtext{
+        font-size: 14px !important;
+        margin-top: 9px !important;
+        margin-bottom: 43.72px !important;
+    }
+
+    .about__subtext--last{
+        margin-bottom: 141px !important;
+    }
+
+
 
 }

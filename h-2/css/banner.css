@@ -202,3 +202,65 @@
     margin-top: 137px;
   }
 }
+
+@media (max-width: 1024px) and (min-width: 320px) {
+  .banner__container{
+    flex-direction: column;
+    max-width: 288px !important;
+  }
+
+  .banner__logo{
+    display: none;
+  }
+
+  .banner__title{
+    margin-top: 84.12px !important;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .banner__title::after{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 43.88px;
+    margin-bottom: 42px;
+  }
+
+  .banner__text{
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 42px;
+  }
+
+  .banner__btn{
+    width: 100% !important;
+    font-size: 18px;
+    padding: 17px 0px 17px 0px;
+  }
+
+  .banner__right{
+    margin-top: 56px;
+  }
+
+  .banner-form__title{
+    font-size: 14px;
+    padding: 40px 0px;
+  }
+
+  .banner-form__input{
+    max-width: 240px !important;
+  }
+
+  .banner__form{
+    max-width: 288px !important;
+  }
+
+  .banner-form__input:last-child {
+    margin-bottom: 51px;
+  }
+
+  .banner__btn{
+    margin-bottom: 50px;
+  }
+}

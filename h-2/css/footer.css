@@ -43,3 +43,26 @@
     padding-bottom: 30px;
   }
 }
+
+@media (max-width: 1024px) and (min-width: 320px){
+  .footer{
+
+  }
+
+  .footer__container{
+    max-width: 288px !important;
+  }
+
+  .footer svg{
+    height: 26px;
+    width: 26px;
+  }
+
+  .footer__text{
+    margin-top: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 45px;
+  }
+}

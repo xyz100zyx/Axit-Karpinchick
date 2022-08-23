@@ -91,3 +91,37 @@
     min-height: 358px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 1024px){
+
+  .design{
+    min-height: auto;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .design__container{
+    max-width: 288px !important;
+  }
+
+  .design__title{
+    font-size: 24px !important;
+    padding-top: 51px;
+  }
+
+  .design__title::after{
+    margin-top: 51px;
+  }
+
+  .design__subtitle{
+    font-size: 14px;
+    padding: 16px 0;
+    margin-bottom: 66px;
+  }
+
+  .design__button{
+    max-width: 288px !important;
+    min-height: 50px !important;
+    margin-bottom: 58px;
+  }
+}

@@ -77,3 +77,45 @@
     margin-left: 20px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  .media__container{
+    max-width: 288px !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .media__title{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    margin-top: 31px;
+    margin-bottom: 13px;
+    text-align: center;
+  }
+
+  .media__subtitle{
+    font-size: 14px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  .media__link svg{
+    height: 26px !important;
+    width: 26px !important;
+  }
+
+  .media__socials{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .media__social{
+    margin-left: 0px;
+  }
+
+  .media__right{
+    margin-bottom: 44px;
+  }
+}
