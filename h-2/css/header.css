@@ -2,6 +2,10 @@
     background: #000;
 }
 
+.header__menu{
+    display: none;
+}
+
 .header__container {
     display: flex;
     justify-content: space-between;
@@ -56,6 +60,7 @@
     .header__container {
         max-width: 888.72px;
         margin-right: 20px;
+
     }
 
     .header__link{
@@ -68,7 +73,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 1024px) {
+@media (min-width: 320px) and (max-width: 1023px) {
     .header__container{
         max-width: 280px;
     }
@@ -84,4 +89,79 @@
 
     .header__nav::after{
     }
+
+    .menu__icon{
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        background: #000;
+        position: relative;
+    }
+
+    .menu__icon span, .menu__icon span::after, .menu__icon span::before{
+        position: absolute;
+        width: 24px;
+        height: 3px;
+        background: #fff;
+        top: 45%;
+        right: 0;
+        z-index: 8;
+    }
+
+    .menu__icon span{
+        transition: 0.2s;
+    }
+
+    .menu__icon span::after, .menu__icon span::before{
+        content: "";
+        transition: all .5s ease;
+    }
+
+    .menu__icon span::after{
+        transform: translateY(8px);
+        bottom: 0;
+    }
+
+    .menu__icon span::before{
+        top: 0;
+        transform: translateY(-8px);
+    }
+
+    .menu__icon--active span{
+        height: 0;
+    }
+
+    .menu__icon--active span::after{
+        transform: rotate(-45deg);
+    }
+
+    .menu__icon--active span::before{
+        transform: rotate(45deg);
+    }
+
+    .header__menu{
+        width: 100%;
+        margin-bottom: 181px;
+    }
+
+    .menu__list{
+        list-style: none;
+    }
+
+    .menu__item{
+        padding: 25px 0;
+        text-align: center;
+    }
+
+    .menu__item a{
+        text-decoration: none;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #fff;
+    }
+
+
 }

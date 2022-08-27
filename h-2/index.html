@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__container">
+      <div id="headerContainer" class="header__container">
         <a href="">
           <img src="./src/logo.png" alt="logo" class="header__logo" />
         </a>
@@ -21,6 +21,20 @@
             <li class="header__link"><a href="#">Contact</a></li>
           </ul>
         </nav>
+        <div id="burgerIcon" class="menu__icon">
+          <span></span>
+        </div>
+      </div>
+      <div class="header__container">
+        <div id="headerMenu" class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#">Features</a></li>
+            <li class="menu__item"><a href="#">About</a></li>
+            <li class="menu__item"><a href="#">Pricing</a></li>
+            <li class="menu__item"><a href="#">Reviews</a></li>
+            <li class="menu__item"><a href="#">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <section class="banner">
@@ -625,5 +639,6 @@
         <div class="footer__text">© 2015 Axure Themes</div>
       </div>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>

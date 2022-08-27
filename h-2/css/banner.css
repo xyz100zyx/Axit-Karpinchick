@@ -140,23 +140,23 @@
 
 @media (max-width: 1510px) and (min-width: 1024px) {
 
-  .banner{
+  .banner {
     min-height: 693px;
   }
 
-  .banner__container{
+  .banner__container {
     max-width: 888.72px !important;
     margin-right: 20px !important;
 
   }
 
-  .banner__logo{
+  .banner__logo {
     width: 183.1px;
     height: 74.86px;
     margin-top: 136.84px;
   }
 
-  .banner__title{
+  .banner__title {
     margin-top: 37.61px;
     font-weight: 500;
     font-size: 36px;
@@ -164,28 +164,28 @@
     max-width: 454.36px;
   }
 
-  .banner__title::after{
+  .banner__title::after {
     margin-top: 41.49px;
     margin-bottom: 31px;
   }
 
-  .banner__text{
+  .banner__text {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     margin-bottom: 31.32px;
   }
 
-  .banner__btn:not(.banner__btn--red){
+  .banner__btn:not(.banner__btn--red) {
     padding: 16px 0px;
   }
 
-  .banner__form{
+  .banner__form {
     max-width: 398px;
     max-height: 450px;
   }
 
-  .banner-form__title{
+  .banner-form__title {
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
@@ -194,16 +194,16 @@
     margin-bottom: 45px;
   }
 
-  .banner-form__input{
+  .banner-form__input {
     max-width: 298px;
   }
 
-  .banner__right{
+  .banner__right {
     margin-top: 137px;
   }
 }
 
-@media (max-width: 1024px) and (min-width: 320px) {
+@media (max-width: 1023px) and (min-width: 320px) {
   .banner__container{
     flex-direction: column;
     max-width: 288px !important;
