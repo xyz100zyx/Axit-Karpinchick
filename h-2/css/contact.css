@@ -21,7 +21,8 @@
 
 .contact__title::after{
     content: "";
-    border: 1px solid #EC7979;
+    background-color: #EC7979;
+    height: 1px;
     display: block;
     max-width: 170px;
     margin: 57px auto 40px auto;

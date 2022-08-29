@@ -37,7 +37,8 @@
 
 .design__title::after {
   content: "";
-  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  height: 1px;
   display: block;
   max-width: 170px;
   margin: 55px auto 0px auto;
