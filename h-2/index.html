@@ -74,8 +74,8 @@
               placeholder="Password"
               class="banner-form__input"
             />
+            <button type="submit" class="banner__btn banner__btn--red">Get Started</button>
           </form>
-          <button class="banner__btn banner__btn--red">Get Started</button>
         </div>
       </div>
     </section>
@@ -480,35 +480,37 @@
         </div>
         <div class="contact__forms">
           <form class="contact__user" action="post">
-            <input
-              class="contact__input"
-              type="text"
-              placeholder="Name"
-              name="username"
-            />
-            <input
-              class="contact__input contact__input--margin"
-              type="text"
-              placeholder="Email"
-              name="email"
-            />
-            <input
-              class="contact__input contact__input--margin"
-              type="password"
-              placeholder="Password"
-              name="password"
-            />
-          </form>
-          <form class="contact__message" action="post">
-            <input
-              class="contact__input contact__input--message"
-              type="text"
-              name="message"
-              placeholder="Message"
-            />
+            <div class="contact__fields">
+              <div class="contact__info">
+                <input
+                        class="contact__input"
+                        type="text"
+                        placeholder="Name"
+                        name="username"
+                />
+                <input
+                        class="contact__input contact__input--margin"
+                        type="text"
+                        placeholder="Email"
+                        name="email"
+                />
+                <input
+                        class="contact__input contact__input--margin"
+                        type="password"
+                        placeholder="Password"
+                        name="password"
+                />
+              </div>
+              <input
+                      class="contact__input contact__input--message"
+                      type="text"
+                      name="message"
+                      placeholder="Message"
+              />
+            </div>
+            <button type="submit" class="contact__btn">Send Message</button>
           </form>
         </div>
-        <button class="contact__btn">Send Message</button>
       </div>
     </section>
     <footer class="footer">

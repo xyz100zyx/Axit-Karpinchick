@@ -4,6 +4,14 @@
 
 .contact__container{
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact__fields{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .contact__title{
@@ -13,8 +21,6 @@
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    margin: 0px;
-    margin-top: 50px;
     padding-top: 61px;
     text-transform: uppercase;
 }
@@ -25,7 +31,7 @@
     height: 1px;
     display: block;
     max-width: 170px;
-    margin: 57px auto 40px auto;
+    margin: 57px auto 0 auto;
 }
 
 .contact__subtitle{
@@ -36,6 +42,7 @@
     line-height: 21px;
     text-align: center;
     color: #86878B;
+    margin-top: 40px;
 }
 
 .contact__forms{
@@ -47,7 +54,8 @@
 .contact__user{
     display: flex;
     flex-direction: column;
-    width: 571px;
+    max-width: 1170px;
+    width: 100%;
 }
 
 .contact__message{
@@ -73,6 +81,10 @@
     border-bottom: 1px solid #bdbdbd;
 }
 
+.contact__info{
+    width: 571px;
+}
+
 .contact__input--margin{
     margin-top: 50px;
 }
@@ -81,6 +93,9 @@
     width: 100%;
     padding-bottom: 0px;
     border: none;
+    align-self: flex-start;
+    max-width: 569px;
+    width: 100%;
 }
 
 .contact__btn{
@@ -97,9 +112,8 @@
     background: #EC7979;
     border: none;
     padding: 22px 123px;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto 0 auto;
+
 }
 
 @media (max-width: 1510px) and (min-width: 1024px) {

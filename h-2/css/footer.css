@@ -5,6 +5,8 @@
 .footer__container {
   margin: 0 auto;
   max-width: 569.2px;
+  padding-top: 35px;
+  padding-bottom: 27px;
 }
 
 .footer__text {
@@ -16,13 +18,12 @@
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 27.8px;
-  padding-bottom: 27px;
 }
 
 .footer__links {
   display: flex;
   justify-content: space-between;
-  padding-top: 35px;
+
 }
 
 @media (max-width: 1510px) and (min-width: 1024px) {

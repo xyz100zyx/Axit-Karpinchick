@@ -21,8 +21,8 @@
 }
 .tabs .tabs__content .tabs__info {
     max-width: 570px;
-    margin-left: 100px;
-    margin-right: 30px;
+    padding: 50px 30px 50px 100px;
+
 }
 .tabs .tabs__content .tabs__info .tabs__title {
     font-family: "Open Sans";
@@ -32,7 +32,6 @@
     line-height: 41px;
     display: flex;
     align-items: center;
-    padding: 50px 0px;
     margin-bottom: 27px;
 }
 .tabs .tabs__content .tabs__info .tabs__subtitle {
@@ -58,10 +57,9 @@
     justify-content: center;
     text-transform: capitalize;
     color: #FFFFFF;
-    width: 270px;
     background: #EC7979;
     border: none;
-    min-height: 58px;
+    padding: 23.5px 96px;
 }
 .tabs a {
     text-decoration: none;

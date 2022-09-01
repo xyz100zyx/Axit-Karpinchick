@@ -1,3 +1,8 @@
+.about__container{
+    padding-top: 50px;
+}
+
+
 .about .about__title {
     font-family: "Raleway";
     font-style: normal;
@@ -5,9 +10,8 @@
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    height: 150px;
-    margin: 0px;
-    margin-top: 57px;
+    margin: 0 auto;
+    padding-top: 57px;
 }
 .about .about__title::after {
     content: "";
@@ -15,7 +19,7 @@
     height: 1px;
     display: block;
     max-width: 170px;
-    margin: 57px auto 40px auto;
+    margin: 57px auto 0 auto;
 }
 .about .about__subtitle {
     font-family: "Raleway";
@@ -24,6 +28,7 @@
     font-size: 18px;
     text-align: center;
     color: #86878B;
+    margin-top: 40px;
 }
 
 .about__text{
@@ -75,9 +80,8 @@
     display: flex;
     align-items: center;
     text-align: center;
-    margin-top: 8px;
-    margin-bottom: 0px;
-    margin-bottom: 58px;
+    padding-top: 8px;
+    padding-bottom: 58px;
 }
 
 @media (max-width: 1510px) and (min-width: 1024px) {

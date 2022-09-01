@@ -4,7 +4,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 950px;
   display: flex;
   justify-content: flex-end;
 }
@@ -18,10 +17,12 @@
 .banner__left {
   color: #fff;
   max-width: 670px;
+  padding-top: 207px;
+  padding-bottom: 195px;
 }
 
 .banner__logo {
-  margin-top: 207px;
+  margin-top: 0px;
 }
 
 .banner__title {
@@ -42,7 +43,7 @@
   border: 1px solid #fff;
   display: block;
   max-width: 170px;
-  margin: 55.12px 0px 42px 0px;
+  margin: 55.12px 0px 0 0px;
 }
 
 .banner__text {
@@ -53,7 +54,7 @@
   line-height: 21px;
   color: #ffffff;
   max-width: 270px;
-  margin-bottom: 42px;
+  margin-top: 42px;
 }
 
 .banner__btn {
@@ -68,6 +69,7 @@
   padding: 22px 0px;
   background: none;
   border: 2px solid #ffffff;
+  margin-top: 42px;
 }
 
 .banner__right {
@@ -79,7 +81,7 @@
   flex-direction: column;
   background-color: #fff;
   width: 470px;
-  border-radius: 8px 8px 0px 0px;
+  border-radius: 8px 8px 10px 10px;
 }
 
 .banner-form__title {
@@ -119,8 +121,8 @@
   margin-top: 33px;
 }
 
-.banner-form__input:last-child {
-  margin-bottom: 75px;
+.banner-form__input:nth-child(4) {
+  margin-bottom: 75px !important;
 }
 
 .banner-form__input::placeholder, .banner-form__input::-moz-placeholder, .banner-form__input::-webkit-input-placeholder {
@@ -136,6 +138,7 @@
   border: none;
   background: #ec7979;
   border-radius: 0px 0px 10px 10px;
+  margin-top: 0;
 }
 
 @media (max-width: 1510px) and (min-width: 1024px) {
@@ -148,7 +151,6 @@
     max-width: 888.72px !important;
     margin-right: auto;
     margin-left: auto;
-
   }
 
   .banner__logo {
@@ -208,6 +210,10 @@
   .banner__container{
     flex-direction: column;
     max-width: 288px !important;
+  }
+
+  .banner__left{
+    padding-bottom: 0 !important;
   }
 
   .banner__logo{
