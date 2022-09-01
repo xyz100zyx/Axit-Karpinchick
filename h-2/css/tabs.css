@@ -119,7 +119,10 @@
 
     .tabs__btn{
         max-width: 231.87px !important;
-        padding: 23.5px 53px !important;
+        padding: 23px 73px !important;
+        font-weight: 600;
+        font-size: 18px !important;
+        line-height: 25px !important;
     }
 }
 
