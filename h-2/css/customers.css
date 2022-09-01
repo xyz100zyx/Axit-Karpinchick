@@ -117,12 +117,13 @@
 @media (max-width: 1510px) and (min-width: 1024px) {
   .customers__container{
     max-width: 992px !important;
+    padding-top: 100px;
   }
 
   .customers__title{
     font-size: 24px;
-    padding: 50px 0px 0px 0px;
-    margin-top: 50px;
+    padding: 0px 0px 0px 0px;
+    margin-top: 0;
   }
 
   .customers__title::after{
@@ -178,7 +179,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 1024px){
+@media (min-width: 320px) and (max-width: 1023px){
   .customers__container{
     max-width: 288px !important;
   }

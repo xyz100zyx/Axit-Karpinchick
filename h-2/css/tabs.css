@@ -77,14 +77,17 @@
         max-width: 992px !important;
     }
 
+
     .tabs__content{
         display: flex;
         justify-content: space-between;
+        width: 100%;
     }
 
     .tabs__info{
         width: 482.89px !important;
-        margin-right: 26px !important;
+        padding: 0 26px 0 85.69px !important;
+
     }
 
     .tabs__img{
@@ -116,10 +119,11 @@
 
     .tabs__btn{
         max-width: 231.87px !important;
+        padding: 23.5px 53px !important;
     }
 }
 
-@media (min-width: 320px) and (max-width: 1024px){
+@media (min-width: 320px) and (max-width: 1023px){
     .tabs__container{
         max-width: 288px !important;
     }

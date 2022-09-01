@@ -68,28 +68,32 @@
     justify-content: center;
     color: #FFFFFF;
     background: #fff;
-    height: 50px;
+    padding-top: 12px;
+    padding-bottom: 11.34px;
 }
 
 .pricing__item--h5{
     background: #333333;
-    height: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .pricing__item h4{
-    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
 .pricing__item h3{
-    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
+    padding-top: 27px;
+    padding-bottom: 27px;
 }
 
 .pricing__item h5{
@@ -105,11 +109,12 @@
 @media (max-width: 1510px) and (min-width: 1024px) {
     .pricing__container{
         max-width: 992px !important;
+        padding-top: 100px;
     }
 
     .pricing__title{
-        margin-top: 50px;
-        padding-top: 50px !important;
+        margin-top: 0;
+        padding-top: 0;
         font-size: 24px;
     }
 
@@ -132,7 +137,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 1024px){
+@media (min-width: 320px) and (max-width: 1023px){
     .pricing__container{
         max-width: 288px !important;
     }

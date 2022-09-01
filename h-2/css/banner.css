@@ -151,6 +151,7 @@
     max-width: 888.72px !important;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 136.84px;
   }
 
   .banner__logo {
@@ -176,11 +177,13 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    margin-bottom: 31.32px;
+    margin-top: 31px;
   }
 
   .banner__btn:not(.banner__btn--red) {
-    padding: 16px 0px;
+    padding: 16px 26px !important;
+    min-width: auto;
+    margin-top: 31.32px;
   }
 
   .banner__form {
@@ -202,7 +205,16 @@
   }
 
   .banner__right {
-    margin-top: 137px;
+    margin-top: 0;
+  }
+
+  .banner__left{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .banner__logo{
+    margin-top: 0;
   }
 }
 

@@ -146,7 +146,7 @@
     }
 
     .contact__user{
-        max-width: 486px !important;
+        max-width: 992px !important;
     }
 
     .contact__input{
@@ -157,12 +157,19 @@
         margin-top: 50px;
     }
 
-    .contact__message{
+    .contact__input--message{
         max-width: 486px !important;
+        padding-left: 20px;
+        box-sizing: border-box;
+        padding-bottom: 0;
+    }
+
+    .contact__fields{
+
     }
 }
 
-@media (max-width: 1024px) and (min-width: 320px) {
+@media (max-width: 1023px) and (min-width: 320px) {
     .contact{
 
     }

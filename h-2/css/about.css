@@ -87,20 +87,22 @@
 @media (max-width: 1510px) and (min-width: 1024px) {
     .about__container{
         max-width: 992px !important;
+        padding-top: 50px;
     }
 
     .about__title{
         font-size: 24px !important;
-        margin-top: 50px;
+        padding-top: 50px !important;
+        margin-top: 0 !important;
     }
 
     .about__title::after{
         margin-top: 50px;
-        margin-bottom: 32px;
     }
 
     .about__subtitle{
         font-size: 14px !important;
+        margin-top: 32px;
     }
 
     .about__proofs{
@@ -139,7 +141,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 1024px){
+@media (min-width: 320px) and (max-width: 1023px){
     .about__container{
         max-width: 288px !important;
     }
