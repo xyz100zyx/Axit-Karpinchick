@@ -144,10 +144,11 @@
 @media (min-width: 320px) and (max-width: 1023px){
     .about__container{
         max-width: 288px !important;
+        padding-top: 0px;
     }
 
     .about__title{
-        margin-top: 53px !important;
+        padding: 53px 0 0 0 !important;
         font-size: 18px !important;
         height: auto !important;
     }
@@ -178,7 +179,7 @@
     }
 
     .about__subtext--last{
-        margin-bottom: 141px !important;
+        margin-bottom: 0 !important;
     }
 
 

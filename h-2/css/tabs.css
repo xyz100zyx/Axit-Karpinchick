@@ -159,14 +159,14 @@
         max-width: 242.74px !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
+        padding: 0 !important;
     }
 
     .tabs__btn{
         font-size: 18px;
         max-width: 242.74px !important;
         width: auto !important;
-        padding-right: 79px;
-        padding-left: 79px;
+        padding: 19px 79px !important;
         margin-bottom: 30px;
     }
 }

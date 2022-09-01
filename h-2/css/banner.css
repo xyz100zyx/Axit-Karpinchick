@@ -222,10 +222,13 @@
   .banner__container{
     flex-direction: column;
     max-width: 288px !important;
+    padding-top: 84.12px;
+    padding-bottom: 50px;
   }
 
   .banner__left{
     padding-bottom: 0 !important;
+    padding-top: 0;
   }
 
   .banner__logo{
@@ -233,7 +236,7 @@
   }
 
   .banner__title{
-    margin-top: 84.12px !important;
+    margin-top: 0 !important;
     font-size: 36px;
     text-align: center;
   }
@@ -256,6 +259,7 @@
     width: 100% !important;
     font-size: 18px;
     padding: 17px 0px 17px 0px;
+    margin-bottom: 0 !important;
   }
 
   .banner__right{
