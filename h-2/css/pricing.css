@@ -59,7 +59,7 @@
 }
 
 .pricing__item{
-    border: 2px solid #F5F5F5;
+    box-sizing: border-box;
 }
 
 .pricing__item--h{
@@ -67,13 +67,12 @@
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    background: #fff;
+    background: #fff !important;
     padding-top: 12px;
     padding-bottom: 11.34px;
 }
 
 .pricing__item--h5{
-    background: #333333;
     padding-top: 16px;
     padding-bottom: 16px;
 }
